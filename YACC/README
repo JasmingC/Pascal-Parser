@@ -4,5 +4,5 @@ VERSION: flex 2.6.4
 $ sudo apt-get install flex
 $ sudo apt-get install bison
 $ bison -y -d output.l
-$ flex output
+$ flex output.l
 $ gcc lex.yy.c y.tab.c -ly -lfl -o output
